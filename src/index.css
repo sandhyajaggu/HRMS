@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html, body, #root { height: 100%; }
+body { -webkit-font-smoothing: antialiased; }
+
+/* keep tables and grids from pushing the page sideways on phones */
+* { min-width: 0; }
+
+@media print {
+  aside, header, .no-print { display: none !important; }
+  main { padding: 0 !important; }
+  .lg\:pl-64 { padding-left: 0 !important; }
+}
