@@ -3,3 +3,6 @@ dist
 dist-demo
 .env
 *.zip
+
+# Local Netlify folder
+.netlify
